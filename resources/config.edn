@@ -1,0 +1,11 @@
+{
+ :zookeeper-host #immuconf/default "localhost"
+ :zookeeper-port #immuconf/default "2181"
+ :kafka-broker-host #immuconf/default "localhost"
+ :kafka-broker-port #immuconf/default "9092"
+ :kafka-topic #immuconf/default "tweets"
+ :consumer-key #immuconf/override ""
+ :consumer-secret #immuconf/override ""
+ :access-token #immuconf/override ""
+ :access-token-secret #immuconf/override ""
+}
